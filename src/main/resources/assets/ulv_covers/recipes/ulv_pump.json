@@ -1,0 +1,59 @@
+{ 
+    "type": "forge:ore_shaped",
+    "pattern": [
+      "SOR",
+      "DPW",
+      "RMC"  ],
+    "key": {
+        "P": [
+          {
+            "item": "gregtech:fluid_pipe_normal",
+            "data": 55
+          }
+        ],
+        "R": [
+          {
+            "item": "gregtech:meta_ring",
+            "data": 1068
+          }
+        ],
+        "S": [
+          {
+            "item": "gregtech:meta_screw",
+            "data": 260
+          }
+        ],
+        "O": [
+          {
+            "item": "gregtech:meta_rotor",
+            "data": 260
+          }
+        ],
+        "M": [
+          {
+            "item": "ulv_covers:ulv_cover_meta_item",
+            "data": 2
+          }
+        ],
+        "C": [
+          {
+            "item": "gregtech:cable_single",
+            "data": 55
+          }
+        ],
+        "W": [
+          {
+            "item": "#WRENCH"
+          }
+        ],
+        "D": [
+          {
+            "item": "#SCREWDRIVER"
+          }
+        ]
+    },
+    "result": {
+      "item": "ulv_covers:ulv_cover_meta_item",
+      "data": 1
+    }
+  }

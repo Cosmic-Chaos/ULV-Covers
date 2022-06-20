@@ -1,0 +1,8 @@
+metaitem.electric.pump.ulv.name=ULV Electric Pump
+metaitem.electric.pump.ulv.tooltip=320 L/sec (as Cover)
+
+metaitem.conveyor.module.ulv.name=ULV Conveyor Module
+metaitem.conveyor.module.ulv.tooltip=4 Items every second (as Cover)
+
+metaitem.electric.motor.ulv.name=ULV Electric Motor
+metaitem.electric.piston.ulv.name=ULV Electric Piston

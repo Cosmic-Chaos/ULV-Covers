@@ -1,0 +1,16 @@
+[
+  {
+    "name" : "WRENCH",
+    "ingredient" : {
+      "type" : "forge:ore_dict",
+      "ore" : "craftingToolScrewdriver"
+    }
+  },
+  {
+    "name" : "SCREWDRIVER",
+    "ingredient" : {
+      "type" : "forge:ore_dict",
+      "ore" : "craftingToolWrench"
+    }
+  }
+]

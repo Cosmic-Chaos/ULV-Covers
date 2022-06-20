@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ulv_covers",
+  "name": "ULV Covers",
+  "description": "Adds ULV Components, including working Covers",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Filostorm", "LordPINE"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

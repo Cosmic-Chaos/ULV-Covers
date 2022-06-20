@@ -1,0 +1,31 @@
+{ 
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "PPP",
+      "MCM",
+      "PPP"  ],
+    "key": {
+        "P": [
+          {
+            "item": "gregtech:meta_plate",
+            "data": 1068
+          }
+        ],
+        "M": [
+          {
+            "item": "ulv_covers:ulv_cover_meta_item",
+            "data": 2
+          }
+        ],
+        "C": [
+          {
+            "item": "gregtech:cable_single",
+            "data": 55
+          }
+        ]
+    },
+    "result": {
+      "item": "ulv_covers:ulv_cover_meta_item",
+      "data": 0
+    }
+  }

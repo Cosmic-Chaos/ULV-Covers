@@ -1,0 +1,43 @@
+{ 
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "PPP",
+      "CRR",
+      "CMG"  ],
+    "key": {
+        "P": [
+          {
+            "item": "gregtech:meta_plate",
+            "data": 260
+          }
+        ],
+        "R": [
+          {
+            "item": "gregtech:meta_stick",
+            "data": 260
+          }
+        ],
+        "G": [
+          {
+            "item": "gregtech:meta_gear_small",
+            "data": 260
+          }
+        ],
+        "M": [
+          {
+            "item": "ulv_covers:ulv_cover_meta_item",
+            "data": 2
+          }
+        ],
+        "C": [
+          {
+            "item": "gregtech:cable_single",
+            "data": 55
+          }
+        ]
+    },
+    "result": {
+      "item": "ulv_covers:ulv_cover_meta_item",
+      "data": 3
+    }
+  }

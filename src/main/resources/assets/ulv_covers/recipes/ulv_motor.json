@@ -1,0 +1,37 @@
+{ 
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CWR",
+      "WMW",
+      "RWC"  ],
+    "key": {
+        "R": [
+          {
+            "item": "gregtech:meta_stick",
+            "data": 260
+          }
+        ],
+        "M": [
+          {
+            "item": "gregtech:meta_stick",
+            "data": 395
+          }
+        ],
+        "W": [
+          {
+            "item": "gregtech:wire_single",
+            "data": 112
+          }
+        ],
+        "C": [
+          {
+            "item": "gregtech:cable_single",
+            "data": 55
+          }
+        ]
+    },
+    "result": {
+      "item": "ulv_covers:ulv_cover_meta_item",
+      "data": 2
+    }
+  }
