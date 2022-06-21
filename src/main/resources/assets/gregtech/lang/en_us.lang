@@ -6,3 +6,6 @@ metaitem.conveyor.module.ulv.tooltip=4 Items every second (as Cover)
 
 metaitem.electric.motor.ulv.name=ULV Electric Motor
 metaitem.electric.piston.ulv.name=ULV Electric Piston
+
+metaitem.robot.arm.ulv.name=ULV Robot Arm
+metaitem.robot.arm.ulv.tooltip=Moves Items at specified rates, up to 4 items/sec (as Cover)

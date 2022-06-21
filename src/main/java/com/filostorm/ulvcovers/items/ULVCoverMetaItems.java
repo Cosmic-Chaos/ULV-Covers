@@ -11,6 +11,7 @@ public final class ULVCoverMetaItems {
         public static MetaItem<?>.MetaValueItem ELECTRIC_PUMP_ULV;
         public static MetaItem<?>.MetaValueItem CONVEYOR_MODULE_ULV;
         public static MetaItem<?>.MetaValueItem ELECTRIC_PISTON_ULV;
+        public static MetaItem<?>.MetaValueItem ROBOT_ARM_ULV;
 
 
         public static void init() {
