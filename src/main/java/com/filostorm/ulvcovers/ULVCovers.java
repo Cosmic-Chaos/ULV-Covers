@@ -2,9 +2,12 @@ package com.filostorm.ulvcovers;
 
 import com.filostorm.ulvcovers.covers.CoverBehaviors;
 import com.filostorm.ulvcovers.items.ULVCoverMetaItems;
-import com.filostorm.ulvcovers.init.ULVCoverRecipes;
+import com.filostorm.ulvcovers.recipes.ULVCoverRecipes;
 import com.filostorm.ulvcovers.proxy.CommonProxy;
 
+import net.minecraft.item.crafting.IRecipe;
+import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
 import gregtech.api.GregTechAPI.RegisterEvent;
@@ -14,7 +17,7 @@ import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-
+@Mod.EventBusSubscriber
 @Mod(modid = ULVCovers.MODID, name = ULVCovers.NAME, version = ULVCovers.VERSION, dependencies = "required-after:gregtech@[2.0.0-beta,);")
 public class ULVCovers
 {
@@ -33,12 +36,18 @@ public class ULVCovers
         logger = event.getModLog();
         logger.info("Registering items for ULV Covers");
         ULVCoverMetaItems.init();
+    }
 
-        logger.info("Registering recipes for ULV Covers");
+    public void Init(FMLInitializationEvent event)
+    {
+    }
+
+    @SubscribeEvent
+    public static void registerRecipes(RegistryEvent.Register<IRecipe> event) {
+        logger.info("Registering recipes for ULV Components");
         ULVCoverRecipes.init();
     }
 
-    @Mod.EventBusSubscriber
 	public static class RegistrationHandler {
         @SubscribeEvent
 		public static void coverRegistry(RegisterEvent<CoverDefinition> event) {

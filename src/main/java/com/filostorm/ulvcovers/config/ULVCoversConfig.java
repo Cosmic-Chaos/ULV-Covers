@@ -6,10 +6,11 @@ import net.minecraftforge.common.config.Config;
 
 @Config(modid = ULVCovers.MODID)
 public class ULVCoversConfig {
-    
-    @Config.Comment("The fuel type for the rocket boots.")
-    @Config.Name("Rocket Boots Fuel")
-    @Config.RequiresMcRestart
-    public static String fueltype = "methane";
+
+    @Config.Comment("Disable all recipes?")
+    public static boolean disableRecipes = false;
+    @Config.Comment("Easy Recipes? (2x2 crafting)")
+    public static boolean easyRecipes = false;
+
 
 }
