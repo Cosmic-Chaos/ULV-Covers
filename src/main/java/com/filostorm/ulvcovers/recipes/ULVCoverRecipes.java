@@ -15,11 +15,11 @@ public class ULVCoverRecipes {
         if (!(ULVCoversConfig.disableRecipes)) {
             if (ULVCoversConfig.easyRecipes) {
                 ModHandler.addShapedRecipe("motor_ulv_easy", ELECTRIC_MOTOR_ULV.getStackForm(),
-                        "CR",
-                        "MC",
+                        "WR",
+                        "MW",
                         'R', new UnificationEntry(stick, Bronze),
                         'M', new UnificationEntry(stick, IronMagnetic),
-                        'C', new UnificationEntry(cableGtSingle, Lead)
+                        'W', new UnificationEntry(wireGtSingle, Tin)
                 );
                 ModHandler.addShapedRecipe("piston_ulv_easy", ELECTRIC_PISTON_ULV.getStackForm(),
                         "PR",
