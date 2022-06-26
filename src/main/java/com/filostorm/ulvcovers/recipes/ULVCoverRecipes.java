@@ -11,7 +11,7 @@ import static gregtech.api.unification.material.Materials.*;
 import static gregtech.api.unification.ore.OrePrefix.*;
 
 public class ULVCoverRecipes {
-    // Generates ULV cover recipes based on the recipeType config setting. Any option other than "easy" or "hard" is ignored.
+    // Generates ULV cover recipes based on the recipeType config setting. Any option other than "easy" or "normal" is ignored.
     public static void init() {
         String recipeType = ULVCoversConfig.recipeType;
         if (recipeType.equals("none")) {
@@ -60,7 +60,7 @@ public class ULVCoverRecipes {
             return;
         }
 
-        if (recipeType.equals("hard")) {
+        if (recipeType.equals("normal")) {
             ModHandler.addShapedRecipe("motor_ulv_hard", ELECTRIC_MOTOR_ULV.getStackForm(),
                     "CWR",
                     "WMW",
