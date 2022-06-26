@@ -6,11 +6,9 @@ import net.minecraftforge.common.config.Config;
 
 @Config(modid = ULVCovers.MODID)
 public class ULVCoversConfig {
-
-    @Config.Comment("Disable all recipes?")
-    public static boolean disableRecipes = false;
-    @Config.Comment("Easy Recipes? (2x2 crafting)")
-    public static boolean easyRecipes = false;
+    @Config.Comment("Recipe Type. Options: \"none\" (no generated recipes), \"easy\" (2x2 crafting), \"hard\" (3x3 crafting). Default: \"hard\"")
+    @Config.RequiresMcRestart
+    public static String recipeType = "hard";
 
 
 }
