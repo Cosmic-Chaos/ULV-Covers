@@ -60,7 +60,7 @@ public class ULVCoverRecipes {
         }
 
         if (recipeType.equals("normal")) {
-            ModHandler.addShapedRecipe("motor_ulv_hard", ELECTRIC_MOTOR_ULV.getStackForm(),
+            ModHandler.addShapedRecipe("motor_ulv_normal", ELECTRIC_MOTOR_ULV.getStackForm(),
                     "CWR",
                     "WMW",
                     "RWC",
@@ -69,7 +69,7 @@ public class ULVCoverRecipes {
                     'W', new UnificationEntry(wireGtSingle, Tin),
                     'C', new UnificationEntry(cableGtSingle, Lead)
             );
-            ModHandler.addShapedRecipe("piston_ulv_hard", ELECTRIC_PISTON_ULV.getStackForm(),
+            ModHandler.addShapedRecipe("piston_ulv_normal", ELECTRIC_PISTON_ULV.getStackForm(),
                     "PPP",
                     "CRR",
                     "CMG",
@@ -79,7 +79,7 @@ public class ULVCoverRecipes {
                     'C', new UnificationEntry(cableGtSingle, Lead),
                     'M', ELECTRIC_MOTOR_ULV.getStackForm()
             );
-            ModHandler.addShapedRecipe("pump_ulv_hard", ELECTRIC_PUMP_ULV.getStackForm(),
+            ModHandler.addShapedRecipe("pump_ulv_normal", ELECTRIC_PUMP_ULV.getStackForm(),
                     "SRO",
                     "dPw",
                     "OMC",
@@ -90,7 +90,7 @@ public class ULVCoverRecipes {
                     'C', new UnificationEntry(cableGtSingle, Lead),
                     'M', ELECTRIC_MOTOR_ULV.getStackForm()
             );
-            ModHandler.addShapedRecipe("conveyor_ulv_hard", CONVEYOR_MODULE_ULV.getStackForm(),
+            ModHandler.addShapedRecipe("conveyor_ulv_normal", CONVEYOR_MODULE_ULV.getStackForm(),
                     "PPP",
                     "MCM",
                     "PPP",
@@ -98,7 +98,7 @@ public class ULVCoverRecipes {
                     'C', new UnificationEntry(cableGtSingle, Lead),
                     'M', ELECTRIC_MOTOR_ULV.getStackForm()
             );
-            ModHandler.addShapedRecipe("robot_arm_ulv_hard", ROBOT_ARM_ULV.getStackForm(),
+            ModHandler.addShapedRecipe("robot_arm_ulv_normal", ROBOT_ARM_ULV.getStackForm(),
                     "CCC",
                     "MRM",
                     "PUR",
