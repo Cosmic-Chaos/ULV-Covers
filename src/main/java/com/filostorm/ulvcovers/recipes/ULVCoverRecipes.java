@@ -1,7 +1,6 @@
 package com.filostorm.ulvcovers.recipes;
 
 import com.filostorm.ulvcovers.config.ULVCoversConfig;
-import gregtech.api.items.ToolDictNames;
 import gregtech.api.recipes.ModHandler;
 import gregtech.api.unification.material.MarkerMaterials;
 import gregtech.api.unification.stack.UnificationEntry;
@@ -82,15 +81,13 @@ public class ULVCoverRecipes {
             );
             ModHandler.addShapedRecipe("pump_ulv_hard", ELECTRIC_PUMP_ULV.getStackForm(),
                     "SRO",
-                    "DPW",
+                    "dPw",
                     "OMC",
                     'R', new UnificationEntry(rotor, Bronze),
                     'S', new UnificationEntry(screw, Bronze),
                     'O', new UnificationEntry(ring, Rubber),
                     'P', new UnificationEntry(pipeNormalFluid, Copper),
                     'C', new UnificationEntry(cableGtSingle, Lead),
-                    'W', ToolDictNames.craftingToolWrench,
-                    'D', ToolDictNames.craftingToolScrewdriver,
                     'M', ELECTRIC_MOTOR_ULV.getStackForm()
             );
             ModHandler.addShapedRecipe("conveyor_ulv_hard", CONVEYOR_MODULE_ULV.getStackForm(),

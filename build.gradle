@@ -10,7 +10,7 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle.forge'
 //Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 
-version = "0.2.2"
+version = "2.5.0"
 group = "com.filostorm.ulvcovers" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "ULVCovers-1.12.2"
 
@@ -85,7 +85,8 @@ dependencies {
     deobfProvided("mezz.jei:jei_1.12.2:${property("jei_ver")}:api")
     runtime("mezz.jei:jei_1.12.2:${property("jei_ver")}")
 
-    provided(files("libs/gregtech-1.12.2-2.2.1-beta.jar"))
+
+    deobfCompile("curse.maven:gregtech-ce-unofficial-557242:4325257")
 
     deobfCompile("codechicken:ChickenASM:1.12-1.0.2.9")
     deobfCompile("codechicken-lib-1-8:CodeChickenLib-1.12.2:3.2.3.358:universal")
