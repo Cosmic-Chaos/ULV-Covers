@@ -86,7 +86,7 @@ dependencies {
     runtime("mezz.jei:jei_1.12.2:${property("jei_ver")}")
 
 
-    deobfCompile("curse.maven:gregtech-ce-unofficial-557242:4325257")
+    deobfCompile("curse.maven:gregtech-ce-unofficial-557242:4904269")
 
     deobfCompile("codechicken:ChickenASM:1.12-1.0.2.9")
     deobfCompile("codechicken-lib-1-8:CodeChickenLib-1.12.2:3.2.3.358:universal")
