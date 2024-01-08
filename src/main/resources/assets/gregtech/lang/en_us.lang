@@ -1,23 +1,11 @@
 metaitem.electric.pump.ulv.name=ULV Electric Pump
-metaitem.electric.pump.ulv.tooltip=320 L/sec (as Cover)
-
 metaitem.conveyor.module.ulv.name=ULV Conveyor Module
-metaitem.conveyor.module.ulv.tooltip=4 Items every second (as Cover)
-
 metaitem.electric.motor.ulv.name=ULV Electric Motor
 metaitem.electric.piston.ulv.name=ULV Electric Piston
-
 metaitem.robot.arm.ulv.name=ULV Robot Arm
-metaitem.robot.arm.ulv.tooltip=Moves Items at specified rates, up to 4 items/sec (as Cover)
 
 metaitem.electric.pump.steam.name=Steam Electric Pump
-metaitem.electric.pump.steam.tooltip=320 L/sec (as Cover)
-
 metaitem.conveyor.module.steam.name=Steam Conveyor Module
-metaitem.conveyor.module.steam.tooltip=4 Items every second (as Cover)
-
 metaitem.electric.motor.steam.name=Steam Electric Motor
 metaitem.electric.piston.steam.name=Steam Electric Piston
-
 metaitem.robot.arm.steam.name=Steam Robot Arm
-metaitem.robot.arm.steam.tooltip=Moves Items at specified rates, up to 4 items/sec (as Cover)

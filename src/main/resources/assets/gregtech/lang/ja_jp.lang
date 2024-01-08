@@ -1,0 +1,11 @@
+metaitem.electric.pump.ulv.name=ULV電動ポンプ
+metaitem.conveyor.module.ulv.name=ULVコンベアーモジュール
+metaitem.electric.motor.ulv.name=ULV電動モーター
+metaitem.electric.piston.ulv.name=ULV電動ピストン
+metaitem.robot.arm.ulv.name=ULVロボットアーム
+
+metaitem.electric.pump.steam.name=スチーム電動ポンプ
+metaitem.conveyor.module.steam.name=スチームコンベアーモジュール
+metaitem.electric.motor.steam.name=スチーム電動モーター
+metaitem.electric.piston.steam.name=スチーム電動ピストン
+metaitem.robot.arm.steam.name=スチームロボットアーム
